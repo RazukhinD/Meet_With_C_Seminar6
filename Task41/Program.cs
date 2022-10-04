@@ -1,7 +1,7 @@
 ﻿using static System.Console;
 Clear();
 
-Write("Введите какие-то  чисела через пробел: ");
+Write("Введите какие-то  числа через пробел: ");
 string[] numbers = ReadLine().Split(" ",StringSplitOptions.RemoveEmptyEntries);
 int res = HowManyPositiveNumbers(numbers);
 WriteLine($"Количество элементов больше 0 = {res}");
